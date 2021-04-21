@@ -1,0 +1,14 @@
+{
+  "rabbit": {
+    "host": "amqp://guest:guest@localhost:5672/",
+    "exchange": "game-exchange",
+    "queue": "game_details",
+    "topic": "game.details"
+  },
+  "postgres": {
+    "host": "localhost",
+    "database": "nostalgic_games",
+    "user": "postgres",
+    "password": "Postgres2018!"
+  }
+}
